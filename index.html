@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Design</title>
+    
+        <!-- Bootstrap -->
+<!--    <link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+  </head>
+  
+  <body>
+    <h1>Responsive Design</h1>
+    <p>
+      Responsive web design solves a variety of problems web designers face today.  
+    </p>
+    <p>
+      Users access the internet using a wide variety of devices including phone, tablet, desktop, and gaming consoles to name a few.  Because of this, it is important to make sure that users have a consistent experience regardless of which device they are using to view your website.  The difficulty in achieving this is that each of these device types has a wide range of screen sizes and resolutions.  
+    </p>
+    <p>
+      Up until recently, web developers would solve this problem by creating a separate website with separate designs targeted towards each device type.  Because devices are continuing to become more and more diverse in the way users experience the internet on them, this makes it increasingly difficult to develop and maintain multiple code layouts that cater to each type of device.  
+    </p>
+    <p>
+      Responsive design allows you to create one design that is fluid and flexible enough to work well on any type of device.
+    </p>
+    <form>
+      
+      <h3>Contact us to learn more about Responsive Design!</h3>
+      <label>Name:
+        <input type="text" name="name" required autofocus>
+      </label>
+      <br>
+      
+      <label>Job Title:
+        <select name="job-title">
+          <option value="">Choose</option>
+          <option value="developer">Software Developer</option>
+          <option value="web">Web Designer</option>
+          <option value="student">Student</option>
+          <option value="management">Management</option>
+          <option value="other">Other</option>
+        </select>
+      </label>
+      <br>
+
+      <label>Email:
+        <input type="email" name="email" placeholder="email@example.com" required>
+      </label>
+      <br>
+      
+      <label>Address:
+        <input type="text" name="street-address">
+      </label>
+      <br>
+      
+      <label>City:
+        <input type="text" name="city">
+      </label>
+      <br>
+      
+      <label>State code (abbreviated):
+        <input type="text" name="state" maxlength="2" value="WA">
+      </label>
+      <br>
+      
+      <label>Zip code:
+        <input type="number" name="zip">
+      </label>
+      <br>
+      <br>
+      
+      <fieldset>
+        <legend>What is your current level of expertise in Responsive Design?</legend>
+        <label>Beginner
+          <input type="radio" name="level" value="beginner">
+        </label>
+        <br>
+        <label>Intermediate
+          <input type="radio" name="level" value="intermediate">
+        </label>
+        <br>
+        <label>Expert
+          <input type="radio" name="level" value="expert">
+        </label>     
+      </fieldset>
+      <br>
+      <br>
+      
+      <fieldset>
+        <legend>Which topics are you interested in learning more about?</legend>
+        <label>Responsive Design and SEO
+          <input type="checkbox" name="topics" value="seo">  
+        </label>
+        <br>
+        <label>Progressive Enhancement
+          <input type="checkbox" name="topics" value="cats">  
+        </label>
+        <br>
+        <label>Bootstrap
+          <input type="checkbox" name="topics" value="cats">  
+        </label>
+        <br>
+        <label>The Future of Responsive Design
+          <input type="checkbox" name="topics" value="cats">  
+        </label>
+      </fieldset>
+      <br>
+      <br>
+      
+      <input type="submit" value="Submit" name="submit">
+      
+      
+    </form>
+  </body>
+</html>
